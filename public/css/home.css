@@ -1,0 +1,79 @@
+body{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    background-image: url('https://vignette.wikia.nocookie.net/valorant/images/e/e7/Loading_Screen_Ascent.png/revision/latest?cb=20200607180020');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+nav{
+    background-color: black;
+    padding: 0.5rem 3rem;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-font{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-logo img{
+    height: 3rem;
+    padding: 1rem;
+}
+
+nav button{
+    margin-left: 1rem;
+    background-color: transparent;
+    padding: 0.5rem 1.3rem;
+    border: none;
+    border-radius: 15px;
+    font-size: 1rem;
+}
+
+button a li{
+    color: black;
+    background-color: rgb(217, 128, 128);
+    padding: 0.5rem 1.3rem;
+    border: none;
+    border-radius: 15px;
+    font-size: 1rem;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+nav a{
+    margin: 1rem;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: black;
+    text-align: center;
+}
+
+.foot-logo a img{
+    width: 2rem;
+    margin: 1rem;
+}
+
+.foot-font p{
+    font-size: 0.8rem;
+    color: white;
+}
